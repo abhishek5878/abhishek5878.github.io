@@ -31,11 +31,7 @@
 						<a href="#" class="icon solid fa-user"><span>Mee</span></a>
 						<a href="#social" class="icon solid fa-address-card"><span>Social media</span></a>
 
-						<a href="#insta" class="icon brands fa-instagram"><span>Instagram</span></a>
-
-						<a href="#contact" class="icon solid fa-comment"><span>Secret message </span></a>
-
-						<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
+						
 					</nav>
 
 				<!-- Main -->
@@ -45,7 +41,7 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Abhishek Vyas</h1>
-									<p> LIVE LONG and PROSPER</p>
+									<p> Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.</p>
 								</header>
 								<a  class="jumplink pic">
 									<img src="images/abhishek.jpg" alt="" />
@@ -89,41 +85,7 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Drop me a message anonymously 🤫</h2>
-								</header>
-
-
-
-
-
-
-
-
-
-
-
-								<form action="https://docs.google.com/forms/d/e/1FAIpQLSfjUP3Teuw-yRw4SFY2aF3PCin9AGEZAIDa_eDAHcXvUPIDHw/viewform?usp=sf_link"
-      target="_self"
-      id="bootstrapForm"
-      method="POST">
-									<div>
-										<div class="row">
-
-											<div class="col-12">
-												<input id="814818812" type="text" name="entry.814818812" placeholder="Your secret identity"  />
-											</div>
-											<div class="col-12">
-												<textarea id="1893960805" name="entry.1893960805"  placeholder="Your secret message for me" style='resize: vertical;' rows="5" required></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
+							
 
 					</div>
 
@@ -139,21 +101,6 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
 
-			<script>
-				$('#bootstrapForm').submit(function (event) {
-    event.preventDefault()
-    var extraData = {}
-    $('#bootstrapForm').ajaxSubmit({
-        data: extraData,
-        dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
-        error: function () {
-
-            alert('Thank you for your secret message! I will definitely read it 😉')
-
-        }
-    })
-})
-			</script>
 
 	</body>
 </html>
